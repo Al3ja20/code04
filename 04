@@ -1,0 +1,119 @@
+  //Resta
+  if (buttonStateE && !buttonStateF && !buttonStateG) {
+    if (!buttonStateA && !buttonStateB && !buttonStateC && !buttonStateD) {
+      ledPinError = false;
+      ledPinS0 = false;
+      ledPinS1 = false;
+      ledPinA0 = false;
+      ledPinA1 = false;
+    }
+
+    if (!buttonStateA && !buttonStateB && !buttonStateC && buttonStateD) {
+      ledPinError = false;
+      ledPinS0 = false;
+      ledPinS1 = true;
+      ledPinA0 = false;
+      ledPinA1 = false;
+    }
+
+    if (!buttonStateA && !buttonStateB && buttonStateC && !buttonStateD) {
+      ledPinError = false;
+      ledPinS0 = true;
+      ledPinS1 = false;
+      ledPinA0 = false;
+      ledPinA1 = false;
+    }
+
+    if (!buttonStateA && !buttonStateB && buttonStateC && buttonStateD) {
+      ledPinError = false;
+      ledPinS0 = true;
+      ledPinS1 = true;
+      ledPinA0 = false;
+      ledPinA1 = false;
+    }
+
+    if (!buttonStateA && buttonStateB && !buttonStateC && !buttonStateD) {
+      ledPinError = false;
+      ledPinS0 = false;
+      ledPinS1 = true;
+      ledPinA0 = true;
+      ledPinA1 = false;
+    }
+    if (!buttonStateA && buttonStateB && !buttonStateC && buttonStateD) {
+      ledPinError = false;
+      ledPinS0 = false;
+      ledPinS1 = false;
+      ledPinA0 = false;
+      ledPinA1 = false;
+    }
+    if (!buttonStateA && buttonStateB && buttonStateC && !buttonStateD) {
+      ledPinError = false;
+      ledPinS0 = false;
+      ledPinS1 = true;
+      ledPinA0 = false;
+      ledPinA1 = false;
+    }
+    if (!buttonStateA && buttonStateB && buttonStateC && buttonStateD) {
+      ledPinError = false;
+      ledPinS0 = true;
+      ledPinS1 = false;
+      ledPinA0 = false;
+      ledPinA1 = false;
+    }
+    if (buttonStateA && !buttonStateB && !buttonStateC && !buttonStateD) {
+      ledPinError = false;
+      ledPinS0 = true;
+      ledPinS1 = false;
+      ledPinA0 = false;
+      ledPinA1 = false;
+    }
+    if (buttonStateA && !buttonStateB && !buttonStateC && buttonStateD) {
+      ledPinError = false;
+      ledPinS0 = false;
+      ledPinS1 = true;
+      ledPinA0 = false;
+      ledPinA1 = false;
+    }
+    if (buttonStateA && !buttonStateB && buttonStateC && !buttonStateD) {
+      ledPinError = false;
+      ledPinS0 = false;
+      ledPinS1 = false;
+      ledPinA0 = false;
+      ledPinA1 = false;
+    }
+    if (buttonStateA && !buttonStateB && buttonStateC && buttonStateD) {
+      ledPinError = false;
+      ledPinS0 = true;
+      ledPinS1 = false;
+      ledPinA0 = false;
+      ledPinA1 = false;
+    }
+    if (buttonStateA && buttonStateB && !buttonStateC && !buttonStateD) {
+      ledPinError = false;
+      ledPinS0 = true;
+      ledPinS1 = true;
+      ledPinA0 = true;
+      ledPinA1 = false;
+    }
+    if (buttonStateA && buttonStateB && !buttonStateC && buttonStateD) {
+      ledPinError = false;
+      ledPinS0 = true;
+      ledPinS1 = false;
+      ledPinA0 = true;
+      ledPinA1 = false;
+    }
+    if (buttonStateA && buttonStateB && buttonStateC && !buttonStateD) {
+      ledPinError = false;
+      ledPinS0 = false;
+      ledPinS1 = true;
+      ledPinA0 = false;
+      ledPinA1 = false;
+    }
+    if (buttonStateA && buttonStateB && buttonStateC && buttonStateD) {
+      ledPinError = false;
+      ledPinS0 = false;
+      ledPinS1 = false;
+      ledPinA0 = false;
+      ledPinA1 = false;
+    }
+  }
